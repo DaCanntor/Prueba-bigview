@@ -16,8 +16,12 @@
 ## Para inicializar las pruebas del archivo "test_app.py"
 ### Se tiene que ejecutar el siguiente comando `pytest test_main.py`
 
-### Para poder ejecutar las pruebas automaticas del archivo "test_selenium.py" encontrado en la carpeta "test_selenium" se debe ejecutar el siguiente comando en la terminal del VS:
-- `python test_selenium/test_selenium.py`
+### Para poder ejecutar las pruebas automaticas del archivo "test_selenium.py" encontrado en la carpeta "test_selenium" se debe ejecutar los siguientes pasos:
+- Descargar los siguientes archivos Chrome `https://storage.googleapis.com/chrome-for-testing-public/138.0.7179.0/win64/chromedriver-win64.zip` y `https://storage.googleapis.com/chrome-for-testing-public/138.0.7179.0/win64/chrome-win64.zip`
+- adicional extraer estos archivos y crear una carpeta en el disco local `C:/` y nombrarla `WebDriver`
+- y coloca las carpetas extraidas de los archivos Chrome dentro de la carpeta `WebDriver`
+- Instalar selenium mediante el siguiente comando `pip install selenium`
+- ejecutar el comando `python test_selenium/test_selenium.py` para colocar en marcha la prueba
 - (Dato adicional: al momento de generar el proceso y finzalizado este mismo generara un archivo llamado `video.json` que contendra los datos requeridos)
 
 ## 📚 Librerías utilizadas
